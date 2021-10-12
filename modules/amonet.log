@@ -1,0 +1,74 @@
+[2021-10-11 10:32:17.960962] Waiting for bootrom
+[2021-10-11 10:44:43.633117] Waiting for bootrom
+[2021-10-11 10:48:58.124419] Waiting for bootrom
+[2021-10-11 10:52:55.294544] Found port = /dev/ttyACM1
+[2021-10-11 10:52:55.326578] Handshake
+[2021-10-11 10:52:55.347104] Disable watchdog
+[2021-10-11 10:55:12.385989] Waiting for bootrom
+[2021-10-11 10:56:07.876520] Found port = /dev/ttyACM1
+[2021-10-11 10:56:07.877138] Handshake
+[2021-10-11 11:01:13.370034] Waiting for bootrom
+[2021-10-11 11:01:18.031427] Found port = /dev/ttyACM1
+[2021-10-11 11:01:18.031993] Handshake
+[2021-10-11 11:01:45.961266] Waiting for bootrom
+[2021-10-11 11:02:05.857090] Found port = /dev/ttyACM1
+[2021-10-11 11:02:05.857642] Handshake
+[2021-10-11 11:02:27.053773] Waiting for bootrom
+[2021-10-11 11:02:47.209365] Found port = /dev/ttyACM1
+[2021-10-11 11:02:47.209909] Handshake
+[2021-10-11 11:04:28.315684] Waiting for bootrom
+[2021-10-11 11:04:35.557281] Found port = /dev/ttyACM1
+[2021-10-11 11:04:35.557936] Handshake
+[2021-10-11 11:05:09.319387] Waiting for bootrom
+[2021-10-11 11:05:16.302489] Found port = /dev/ttyACM1
+[2021-10-11 11:05:16.303407] Handshake
+[2021-10-11 11:07:28.447052] Waiting for bootrom
+[2021-10-11 11:07:31.559691] Found port = /dev/ttyACM1
+[2021-10-11 11:07:31.560349] Handshake
+[2021-10-11 11:19:03.861670] Waiting for bootrom
+[2021-10-11 11:19:17.295299] Found port = /dev/ttyACM1
+[2021-10-11 11:19:17.295979] Handshake
+[2021-10-11 11:19:38.045398] Waiting for bootrom
+[2021-10-11 11:19:40.900507] Found port = /dev/ttyACM1
+[2021-10-11 11:19:40.901148] Handshake
+[2021-10-11 11:20:37.418572] Waiting for bootrom
+[2021-10-11 11:20:43.885720] Found port = /dev/ttyACM1
+[2021-10-11 11:20:43.886431] Handshake
+[2021-10-11 11:22:28.880958] Waiting for bootrom
+[2021-10-11 11:24:24.785974] Found port = /dev/ttyACM1
+[2021-10-11 11:24:24.817879] Handshake
+[2021-10-11 11:24:24.838410] Disable watchdog
+[2021-10-11 11:25:04.965338] Waiting for bootrom
+[2021-10-11 11:25:07.304167] Found port = /dev/ttyACM1
+[2021-10-11 11:25:07.304820] Handshake
+[2021-10-11 11:25:37.893841] Waiting for bootrom
+[2021-10-11 11:25:43.626979] Found port = /dev/ttyACM1
+[2021-10-11 11:25:43.658987] Handshake
+[2021-10-11 11:25:43.679533] Disable watchdog
+[2021-10-11 11:28:04.683510] Waiting for bootrom
+[2021-10-11 11:32:48.261321] Found port = /dev/ttyACM1
+[2021-10-11 11:32:48.262270] Handshake
+[2021-10-11 11:32:48.266242] Disable watchdog
+[2021-10-11 11:32:53.567022] Init crypto engine
+[2021-10-11 11:32:53.731423] Disable caches
+[2021-10-11 11:32:53.734407] Disable bootrom range checks
+[2021-10-11 11:32:53.871450] Load payload from ../brom-payload/build/payload.bin = 0x45D0 bytes
+[2021-10-11 11:32:53.874025] Send payload
+[2021-10-11 11:33:01.287658] Let's rock
+[2021-10-11 11:33:01.293631] Wait for the payload to come online...
+[2021-10-11 11:33:01.903658] all good
+[2021-10-11 11:33:01.903743] Check GPT
+[2021-10-11 11:33:02.230100] gpt_parsed = {'KB': (2048, 2048), 'DKB': (4096, 2048), 'EXPDB': (6144, 35584), 'UBOOT': (41728, 2048), 'boot': (43776, 32768), 'recovery': (76544, 32768), 'MISC': (109312, 1024), 'LOGO': (110336, 7168), 'TEE1': (117504, 10240), 'TEE2': (127744, 10240), 'system': (137984, 2457600), 'cache': (2595584, 512000), 'userdata': (3107584, 12162271), '': (0, 1)}
+[2021-10-11 11:33:02.230178] Check boot0
+[2021-10-11 11:33:02.439716] Check rpmb
+[2021-10-11 11:33:02.651701] Clear preloader header
+[2021-10-11 11:33:03.068859] Downgrade rpmb
+[2021-10-11 11:33:03.071049] Recheck rpmb
+[2021-10-11 11:33:03.967774] rpmb downgrade ok
+[2021-10-11 11:33:03.967860] Flash lk-payload
+[2021-10-11 11:33:04.292737] Flash tz
+[2021-10-11 11:33:58.223469] Flash lk
+[2021-10-11 11:34:20.823995] Inject microloader
+[2021-10-11 11:34:21.243165] Force fastboot
+[2021-10-11 11:34:21.534014] Flash preloader
+[2021-10-11 11:34:27.495383] Reboot to unlocked fastboot
